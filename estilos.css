@@ -24,7 +24,7 @@ a {
 /* ------------------------- */
 
 header {
-	padding: 40px 0;
+	padding: 40px;
 }
 
 header .logo {
@@ -95,14 +95,17 @@ header .categorias a.activo {
 	width: calc(33.333333% - 20px);
 }
 
+/* En la pantalla principal */
 .grid .item-contenido {
 	position: relative;
     width: 230px;  
     height: 230px;
 }
 
+/* En la pantalla principal */
 .grid .item img {
-	width: 100%;
+	width: 250px;
+	height: 150px;
 	cursor: pointer;
 	vertical-align: top;
 }
@@ -129,8 +132,11 @@ header .categorias a.activo {
 	display: flex;
 }
 
+
+/* Imagen desplegada */
 .overlay img {
-	max-width: 100%;
+	text-align: right;
+	width: 600px;
 }
 
 .overlay .descripcion {
