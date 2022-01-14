@@ -9,6 +9,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+/* El logo de arriba del todo */
+.og{
+	width: 60px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -23,9 +29,10 @@ a {
 /* HEADER */
 /* ------------------------- */
 
-/* Style The Dropdown Button */
-.dropbtn {
-	background-color: #868585;
+
+/* El estilo del boton de iniciar sesion */
+.iniciarsesion {
+	background-color: #c51f56;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -35,7 +42,28 @@ a {
 	height: 40px;
 	/* para que el texto de dentro quede bien */
 	padding: 0 20px;
-	width: 110px;
+	width: 140px;
+
+  }
+
+  /* Para que cambie de color al ponerte encima */
+  .iniciarsesion:hover{
+	background-color: #a01745;
+  }
+
+/* El estilo del boton de menu */
+.dropbtn {
+	background-color: #c51f56;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 100px;
+	height: 40px;
+	/* para que el texto de dentro quede bien */
+	padding: 0 20px;
+	width: 140px;
 
   }
   
@@ -45,7 +73,7 @@ a {
 	display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Para que sea unn desplegable */
   .dropdown-content {
 	display: none;
 	position: absolute;
@@ -56,7 +84,7 @@ a {
 	border-radius: 10px;
   }
   
-  /* Links inside the dropdown */
+  /* Editar lo de dentro del boton */
   .dropdown-content a {
 	color: black;
 	padding: 12px 16px;
@@ -64,17 +92,17 @@ a {
 	display: block;
   }
   
-  /* Change color of dropdown links on hover */
+  /* cambiar el colr de loc links cuando pasas por encima */
   .dropdown-content a:hover {background-color: #f1f1f1}
   
-  /* Show the dropdown menu on hover */
+  /* Para mostrar el contenido que hay dentroc cuando pasas por encima */
   .dropdown:hover .dropdown-content {
 	display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* Para que cambie de color al ponerte encima */
   .dropdown:hover .dropbtn {
-	background-color: #383838;
+	background-color: #a01745;
   }
 
 header {
@@ -108,7 +136,8 @@ header .barra-busqueda {
 	border: none;
 	text-align: center;
 	font-size: 16px;
-	margin-left: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 header .categorias {
