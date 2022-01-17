@@ -119,15 +119,15 @@ header .logo p {
 }
 
 header form {
-	width: 100%;
-	display: flex;
+	width: 80%;
+	display: inline;
 	justify-content: center;
 	margin-bottom: 20px;
 }
 
 /* Barra de busqueda */
 header .barra-busqueda {
-	width: 50%;
+	width: 57%;
 	height: 40px;
 	line-height: 40px;
 	background: #fff;
@@ -144,6 +144,7 @@ header .categorias {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 30px;
 }
 
 header .categorias a {
