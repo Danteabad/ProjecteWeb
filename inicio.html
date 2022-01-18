@@ -8,7 +8,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400.700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="inicio.css">
 	<title>OmegaGames</title>
 </head>
 <body>
@@ -20,19 +20,29 @@
 				<h1>OmegaGames</h1>
 				<p>By: Ruben Huertas & Abel Flores & Dante Abad</p>
 			</div>
-			<form action="">
+
+			<!-- Form que engloba los tres botones -->
+			<form class="formmenu">
+				<!-- Boton de menu -->
 				<div class="dropdown">
 					<button class="dropbtn">Menu</button>
 					<div class="dropdown-content">
-					  <a href="#">Link 1</a>
-					  <a href="#">Link 2</a>
+					  <a href="que_somos.html">Que somos</a>
+					  <a href="contactanos.html">Contactanos</a>
 					  <a href="#">Link 3</a>
 					</div>
 				</div>
-				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-				<button class="iniciarsesion">Iniciar sesion</button>
 
+				<!-- Barra de busqueda -->
+				<input class="barra-busqueda" type="text" id="barra-busqueda" placeholder="Buscar">
 			</form>
+
+			<!-- Boton de iniciar seison -->
+			<form class="forminiciarsesion" action="iniciarsesion.html">
+				<button class="iniciarsesion">Iniciar sesion</button>
+			</form>
+
+			<!-- Menun de categorias -->
 			<div class="categorias" id="categorias">
 				<a href="#" class="activo">Todos</a>
 				<a href="#">Accion</a>

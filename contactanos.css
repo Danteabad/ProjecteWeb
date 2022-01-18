@@ -25,29 +25,31 @@ a {
 	margin: auto;
 }
 
-#precio{
-	text-align: center;
-}
-
-#boton {
-	background-color: #c51f56;
-	border-color: azure;
-	border-radius: 100px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	padding-left: 3%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	padding-right: 3%;
-	font-size: 10px;
-	margin-left: 25%;
-	color: white;
-}
-
 /* ------------------------- */
 /* HEADER */
 /* ------------------------- */
 
+.titulopag {
+	background-color: #000000;
+	color: rgb(255, 147, 250);
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 100px;
+	height: 40px;
+	/* para que el texto de dentro quede bien */
+	padding: 0 20px;
+	width: 140px;
+	margin-left: 116px;
+	margin-right: 100px;
+
+  }
+
+/* Para que cambie de color al ponerte encima */
+.titulopag:hover{
+background-color: #383738;
+}
 
 /* El estilo del boton de iniciar sesion */
 .iniciarsesion {
@@ -62,13 +64,13 @@ a {
 	/* para que el texto de dentro quede bien */
 	padding: 0 20px;
 	width: 140px;
-
+	
   }
 
-  /* Para que cambie de color al ponerte encima */
-  .iniciarsesion:hover{
-	background-color: #a01745;
-  }
+/* Para que cambie de color al ponerte encima */
+.iniciarsesion:hover{
+background-color: #a01745;
+}
 
 /* El estilo del boton de menu */
 .dropbtn {
@@ -138,15 +140,15 @@ header .logo p {
 }
 
 header form {
-	width: 100%;
-	display: flex;
+	width: 80%;
+	display: inline;
 	justify-content: center;
 	margin-bottom: 20px;
 }
 
 /* Barra de busqueda */
 header .barra-busqueda {
-	width: 50%;
+	width: 57%;
 	height: 40px;
 	line-height: 40px;
 	background: #fff;
@@ -163,6 +165,7 @@ header .categorias {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 30px;
 }
 
 header .categorias a {
@@ -174,6 +177,10 @@ header .categorias a {
 
 header .categorias a.activo {
 	color: #000;
+}
+
+.titulopag{
+	width: 200px;
 }
 
 /* ------------------------- */
@@ -339,29 +346,3 @@ footer .creado-por a:hover {text-decoration: underline;}
 		width: 100%;
 	}
 }
-
-/* CARRITO */
-.shopping-cart-items {
-	padding: 20px 0px;
-  }
-  
-  .shopping-cart-header {
-	border-bottom: 1px solid #ccc;
-  }
-  
-  .shopping-cart-image {
-	max-width: 80px;
-  }
-  
-  .shopping-cart-quantity-input {
-	max-width: 45px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background: #eee;
-	padding: 5px;
-  }
-  
-  .shopping-cart-total {
-	min-height: 96px;
-  }
-  
