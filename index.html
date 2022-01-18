@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width. initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400.700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<link rel="stylesheet" href="estilos.css">
 	<title>OmegaGames</title>
@@ -41,11 +43,14 @@
 				data-categoria="shooter"
 				data-etiquetas="Bo3 bo3 BO3"
 				data-descripcion="Nombre: Call of Duty Bo3 <br>
-				Precio: 39,99€ <br>
+				Precio: 39.99€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="Bo3.jpg" alt="">
+					<img class="item-image" src="Bo3.jpg" alt="">
+					<h3 class="item-title" hidden>Call of Duty Black Ops 3</h3>
+					<h4 id="precio" class="item-price">39.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -54,11 +59,14 @@
 				data-categoria="coches"
 				data-etiquetas="rocket league Rocket League"
 				data-descripcion="Nombre: Rocket League <br>
-				Precio: 19,99€ <br>
+				Precio: 19.99€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="rocketleague.jpg" alt="">
+					<img class="item-image" src="rocketleague.jpg" alt="">
+					<h3 class="item-title" hidden>Rocket League</h3>
+					<h4 id="precio" class="item-price">19.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -67,11 +75,14 @@
 				data-categoria="supervivencia"
 				data-etiquetas="among us Among Us"
 				data-descripcion="Nombre: Among us <br>
-				Precio: 19,99€ <br>
+				Precio: 19.99€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="amoungus.jpg" alt="">
+					<img class="item-image" src="amoungus.jpg" alt="">
+					<h3 class="item-title" hidden>Amoung Us</h3>
+					<h4 id="precio" class="item-price">19.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -80,11 +91,14 @@
 				data-categoria="supervivencia"
 				data-etiquetas="Minecraft minecraft"
 				data-descripcion="Nombre: Minecraft <br>
-				Precio: 14,95€ <br>
+				Precio: 14.95€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="minecraft.jpg" alt="">
+					<img class="item-image" src="minecraft.jpg" alt="">
+					<h3 class="item-title" hidden>Minecraft</h3>
+					<h4 id="precio" class="item-price">14.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -93,11 +107,14 @@
 				data-categoria="supervivencia"
 				data-etiquetas="Fortnite fortnite"
 				data-descripcion="Nombre: Fortnite <br>
-				Precio: 19,95€ <br>
+				Precio: 19.95€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="fortnite.jpg" alt="">
+					<img class="item-image" src="fortnite.jpg" alt="">
+					<h3 class="item-title" hidden>Fortnite</h3>
+					<h4 id="precio" class="item-price">19.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -106,11 +123,14 @@
 				data-categoria="coches"
 				data-etiquetas="Forza Horizon forza horizon"
 				data-descripcion="Nombre: Forza Horizon 5 <br>
-				Precio: 59,99€ <br>
+				Precio: 59.99€ <br>
 				Compatibilidad: Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="forzahorizon.jpg" alt="">
+					<img class="item-image" src="forzahorizon.jpg" alt="">
+					<h3 class="item-title" hidden>Forza Horizon 5</h3>
+					<h4 id="precio" class="item-price">59.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -119,11 +139,14 @@
 				data-categoria="deportes"
 				data-etiquetas="Fifa fifa"
 				data-descripcion="Nombre: Fifa 22 <br>
-				Precio: 24,95€ <br>
+				Precio: 24.95€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="fifa.jpg" alt="">
+					<img class="item-image" src="fifa.jpg" alt="">
+					<h3 class="item-title" hidden>Fifa</h3>
+					<h4 id="precio" class="item-price">24.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -132,11 +155,14 @@
 				data-categoria="shooter"
 				data-etiquetas="csgo CSGO"
 				data-descripcion="Nombre: CS:GO <br>
-				Precio: 11,99€ <br>
+				Precio: 11.99€ <br>
 				Compatibilidad: Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="csgo.jpg" alt="">
+					<img class="item-image" src="csgo.jpg" alt="">
+					<h3 class="item-title" hidden>Counter Strike Global Ofensive</h3>
+					<h4 id="precio" class="item-price">11.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -145,11 +171,14 @@
 				data-categoria="shooter"
 				data-etiquetas="Valorant valorant"
 				data-descripcion="Nombre: Valorant <br>
-				Precio: 23,95€ <br>
+				Precio: 23.95€ <br>
 				Compatibilidad: PC "
 			>
 				<div class="item-contenido">
-					<img src="valorant.jpg" alt="">
+					<img class="item-image" src="valorant.jpg" alt="">
+					<h3 class="item-title" hidden>Valorant</h3>
+					<h4 id="precio" class="item-price">23.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -158,11 +187,14 @@
 				data-categoria="terror"
 				data-etiquetas="Poppy poppy Playtime playtime"
 				data-descripcion="Nombre: Poppy Playtime <br>
-				Precio: 15,00€ <br>
+				Precio: 15.00€ <br>
 				Compatibilidad: PC "
 			>
 				<div class="item-contenido">
-					<img src="poppy.jpg" alt="">
+					<img class="item-image" src="poppy.jpg" alt="">
+					<h3 class="item-title" hidden>Poppy Playtime</h3>
+					<h4 id="precio" class="item-price">15.00€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -171,11 +203,14 @@
 				data-categoria="multijugador"
 				data-etiquetas="Fall Guys fall guys"
 				data-descripcion="Nombre: Fall Guys <br>
-				Precio: 12,95€ <br>
+				Precio: 12.95€ <br>
 				Compatibilidad: PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="fallguys.jpg" alt="">
+					<img class="item-image" src="fallguys.jpg" alt="">
+					<h3 class="item-title" hidden>Fall Guys</h3>
+					<h4 id="precio" class="item-price">12.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -184,11 +219,14 @@
 				data-categoria="estrategia"
 				data-etiquetas="Cuphead cuphead"
 				data-descripcion="Nombre: Cuphead <br>
-				Precio: 19,99€ <br>
+				Precio: 19.99€ <br>
 				Compatibilidad: PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="cuphead.jpg" alt="">
+					<img class="item-image" src="cuphead.jpg" alt="">
+					<h3 class="item-title" hidden>Cuphead</h3>
+					<h4 id="precio" class="item-price">19.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -197,11 +235,14 @@
 				data-categoria="multijugador"
 				data-etiquetas="GTA gta"
 				data-descripcion="Nombre: GTA 5 <br>
-				Precio: 29,95€ <br>
+				Precio: 29.95€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="gta.jpg" alt="">
+					<img class="item-image" src="gta.jpg" alt="">
+					<h3 class="item-title" hidden>GTA 5</h3>
+					<h4 id="precio" class="item-price">29.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -210,11 +251,14 @@
 				data-categoria="aventuras"
 				data-etiquetas="Spiderman spiderman"
 				data-descripcion="Nombre: Spider-man <br>
-				Precio: 34,99€ <br>
+				Precio: 34.99€ <br>
 				Compatibilidad: PS5 / PS4 "
 			>
 				<div class="item-contenido">
-					<img src="spiderman.jpg" alt="">
+					<img class="item-image" src="spiderman.jpg" alt="">
+					<h3 class="item-title" hidden>Spider-Man Miles Morales</h3>
+					<h4 id="precio" class="item-price">34.99€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -223,11 +267,14 @@
 				data-categoria="aventuras"
 				data-etiquetas="ARK ark"
 				data-descripcion="Nombre: Ark <br>
-				Precio: 49,95€ <br>
+				Precio: 49.95€ <br>
 				Compatibilidad: PS4 / Xbox / PC / Switch "
 			>
 				<div class="item-contenido">
-					<img src="ark.jpg" alt="">
+					<img class="item-image" src="ark.jpg" alt="">
+					<h3 class="item-title" hidden>ARK</h3>
+					<h4 id="precio" class="item-price">49.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -236,11 +283,14 @@
 				data-categoria="accion"
 				data-etiquetas="Assassins Creed assassins creed"
 				data-descripcion="Nombre: Assassin's Credd <br>
-				Precio: 12,95€ <br>
+				Precio: 12.95€ <br>
 				Compatibilidad: PS4 / Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="assassinscreed.jpg" alt="">
+					<img class="item-image" src="assassinscreed.jpg" alt="">
+					<h3 class="item-title" hidden>Assassins Creed Odyssey</h3>
+					<h4 id="precio" class="item-price">12.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
 
@@ -249,15 +299,86 @@
 				data-categoria="deportes"
 				data-etiquetas="NBA nba"
 				data-descripcion="Nombre: NBA 2K 2022 <br>
-				Precio: 45,95€ <br>
+				Precio: 45.95€ <br>
 				Compatibilidad: PS5 / PS4 / Xbox / PC "
 			>
 				<div class="item-contenido">
-					<img src="nba.jpg" alt="">
+					<img class="item-image" src="nba.jpg" alt="">
+					<h3 class="item-title" hidden>NBA 2K22</h3>
+					<h4 id="precio" class="item-price">45.95€</h4>
+					<button id="boton" class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
 				</div>
 			</div>
-
 		</section>
+
+		<section class="shopping-cart">
+				<div class="container">
+					<h1 class="text-center">CARRITO</h1>
+					<hr>
+					<div class="row">
+						<div class="col-6">
+							<div class="shopping-cart-header">
+								<h6>Producto</h6>
+							</div>
+						</div>
+						<div class="col-2">
+							<div class="shopping-cart-header">
+								<h6 class="text-truncate">Precio</h6>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="shopping-cart-header">
+								<h6>Cantidad</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shopping-cart-items shoppingCartItemsContainer">
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<div class="shopping-cart-total d-flex align-items-center">
+							<p class="mb-0">Total:</p>
+							<p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+							<div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+								data-delay="2000">
+								<div class="toast-header">
+									<span>✅</span>
+									<strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+									<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="toast-body text-white">
+									Se aumentó correctamente la cantidad
+								</div>
+							</div>
+							<button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+								data-target="#comprarModal">Comprar</button>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pronto recibirá su pedido</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			</section>
 
 		<section class="overlay" id="overlay">
 			<div class="contenedor-img">
@@ -293,6 +414,15 @@
 
 	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
 	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 	<script src="main.js"></script>
 </body>
 </html>

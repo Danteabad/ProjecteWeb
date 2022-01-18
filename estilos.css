@@ -19,6 +19,25 @@ a {
 	margin: auto;
 }
 
+#precio{
+	text-align: center;
+}
+
+#boton {
+	background-color: #c51f56;
+	border-color: azure;
+	border-radius: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 3%;
+	font-size: 10px;
+	margin-left: 25%;
+	color: white;
+}
+
 /* ------------------------- */
 /* HEADER */
 /* ------------------------- */
@@ -231,3 +250,29 @@ footer .creado-por a:hover {text-decoration: underline;}
 		width: 100%;
 	}
 }
+
+/* CARRITO */
+.shopping-cart-items {
+	padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+	max-width: 80px;
+  }
+  
+  .shopping-cart-quantity-input {
+	max-width: 45px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #eee;
+	padding: 5px;
+  }
+  
+  .shopping-cart-total {
+	min-height: 96px;
+  }
+  
