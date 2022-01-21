@@ -25,20 +25,20 @@ a {
 	margin: auto;
 }
 
-
 #boton {
 	background-color: #c51f56;
-	border-color: azure;
+	border: none;
 	border-radius: 100px;
-	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	padding-left: 3%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	padding-right: 3%;
+	padding: 0 20px;;
 	font-size: 10px;
-	color: white;
-	margin-left: 27%;
+	height: 35px;
+	margin-left: 25%;
+	width: 140px;
+}
+
+#boton:hover{
+	background-color: #a01745;
 }
 
 /* ------------------------- */
