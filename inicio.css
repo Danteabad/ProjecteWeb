@@ -328,6 +328,8 @@ footer .creado-por a:hover {text-decoration: underline;}
 /* ------------------------- */
 /* Mediaqueries */
 /* ------------------------- */
+
+/* Para adaptar la barra de busqueda*/
 @media screen and (max-width: 700px) {
 	.grid .item {
 		width: calc(50% - 20px);
@@ -338,6 +340,21 @@ footer .creado-por a:hover {text-decoration: underline;}
 	}
 }
 
+/* Para adaptar los botones menu y iniciar sesion*/
+@media screen and (max-width: 700px) {
+	.dropbtn {
+		width: calc(50% - 20px);
+		width: 365px;
+		margin-bottom: 10px;
+	}
+
+	.iniciarsesion {
+		width: calc(50% - 20px);
+		width: 365px;
+		margin-top: 10px;
+	}
+
+}
 
 /* CARRITO */
 
