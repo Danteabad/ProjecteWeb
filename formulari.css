@@ -36,6 +36,18 @@
     font-size: 18px;
     color: black;
   }
+
+  .acceder {
+    width: 100%;
+    background: rgb(109, 109, 109);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #c51f56;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+  }
   
   .form-register p {
     height: 40px;
