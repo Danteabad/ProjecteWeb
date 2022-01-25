@@ -170,3 +170,32 @@ function comprarButtonClicked() {
   shoppingCartItemsContainer.innerHTML = '';
   updateShoppingCartTotal();
 }
+
+var usuario;
+var contraseña;
+function register() {
+    usuario = document.form.text.value
+    contraseña = document.form.password.value
+    if (usuario == "" || contraseña == "")
+        alert ("Tienes que ingresar un usuario o contraseña.")
+        else {
+            document.form.submit();
+        }
+
+        console.log(usuario);
+        console.log(contraseña);
+        localStorage.setItem('usuario', (usuario))
+        localStorage.setItem('contraseña', (contraseña))
+
+}
+
+function iniciarsesion() {
+console.log(localStorage.getItem('usuario'));
+console.log(document.form.user.value);
+console.log(document.form.password2.value);
+    if (document.form.user.value != localStorage.getItem('usuario') || document.form.password2.value != localStorage.getItem('contraseña')) {
+        alert ("No es correcto, ingrese un usuario y una contraseña valida o ves a registrarse para iniciar sesion.")
+        return false
+    } 
+    document.form.submit();
+}
