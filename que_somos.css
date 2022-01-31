@@ -358,7 +358,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 	display: flex;
 	padding: 0;
 	width: 400%;
-	animation: cambio 50000000000000000s infinite alternate linear;
+	animation: cambio 20s infinite alternate linear;
 }
 
 .slider li {
